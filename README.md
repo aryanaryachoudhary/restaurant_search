@@ -7,6 +7,7 @@ This project is a Django-based web application designed to search for restaurant
 - **Search Functionality:** Users can search for dishes and see which restaurants offer them, along with their locations.
 - **Admin Interface:** Admins can manage restaurant data, view lists of restaurants, search for specific dishes, and perform bulk actions like deleting selected restaurants.
 - **CSV Data Loading:** Restaurant data is loaded from a CSV file into the database using a custom management command.
+- Below is an example image showing the name of the restaurants that serve "Dosa" as entered in the search form :point_down:
 
 ![image](https://github.com/aryanaryachoudhary/restaurant_search/assets/28597253/001a6d6e-24b9-4eea-ad8b-2bc1836ac1c2)
 
