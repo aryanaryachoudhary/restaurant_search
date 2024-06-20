@@ -1,0 +1,35 @@
+Steps to create the project:
+# Create a virtual environment
+python -m venv env
+.\env\Scripts\activate`
+
+# Install Django
+pip install django
+
+# Create a new Django project
+django-admin startproject restaurant_search
+cd restaurant_search
+
+# Create a new Django app
+django-admin startapp search
+
+
+
+Steps to Run the Project:
+
+Run Migrations:
+python manage.py makemigrations
+python manage.py migrate
+
+Create a Superuser:
+python manage.py createsuperuser
+
+Load Data from CSV:
+python manage.py load_restaurants
+
+Run the Development Server:
+python manage.py runserver
+
+Testing the Application:
+Admin Interface: Visit http://127.0.0.1:8000/admin/ and log in with the superuser credentials.
+Search Page: Visit http://127.0.0.1:8000/admin/search/ to use the search form and verify that the results are displayed as expected.

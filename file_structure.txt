@@ -1,0 +1,30 @@
+restaurant_search/
+├── restaurant_search/
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+├── search/
+│   ├── management/
+│   │   ├── __init__.py
+│   │   └── commands/
+│   │       ├── __init__.py
+│   │       └── load_restaurants.py
+│   ├── migrations/
+│   │   └── __init__.py
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── templates/
+│   │   └── search/
+│   │       └── search.html
+│   ├── tests.py
+│   ├── urls.py
+│   ├── views.py
+├── db.sqlite3
+├── manage.py
+├── restaurant_small.csv
+└── requirements.txt
